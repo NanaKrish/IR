@@ -186,7 +186,8 @@ def check(dictionary, val):
 
 def main():
 	documents = pandas.read_csv(r'documents.csv')
-	# to read the data from the csv file as a dataframe
+	# to read the data from the csv file as a dataframe 
+	#df = pd.read_csv('file_location\filename.txt', delimiter = "\t")
 
 	rows = len(documents)
 	# to get the number of rows
@@ -445,6 +446,7 @@ def prediction(similarity, doc_count):
 def main():
 	documents = pandas.read_csv(r'documents.csv')
 	# to read the data from the csv file as a dataframe
+	#df = pd.read_csv('file_location\filename.txt', delimiter = "\t")
 
 	rows = len(documents)
 	# to get the number of rows
