@@ -10,7 +10,9 @@ import re
 import sys
 from collections import defaultdict
 from functools import reduce
-
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
